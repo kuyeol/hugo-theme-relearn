@@ -7,7 +7,7 @@ runs:
       uses: peaceiris/actions-hugo@v2
       with:
         hugo-version: 'latest'
-
+        
     - name: Build site
       shell: bash
       run: |
